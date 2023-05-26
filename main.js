@@ -10,7 +10,7 @@ function searchTitle(e){
             document.getElementById('title').innerHTML =  `<div class="h4 pt-5"> Tile song: ${songFilter[0].title}</div>`;
             // console.log(songFilter[0].title)
     })
-    )
+    ).catch(err => console.log(`Error : ${err}`));
     e.preventDefault();
 }
 // searchTitle();
