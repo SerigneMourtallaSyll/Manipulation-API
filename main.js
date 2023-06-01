@@ -15,5 +15,5 @@ function searchTitle(e){
 }
 // searchTitle();
 
-document.querySelector('#btn').addEventListener('click', searchTitle);
+document.querySelector('#cp').addEventListener('input', searchTitle);
 
